@@ -1,23 +1,29 @@
 {
-	"name": "webpack-analyse",
-	"version": "0.0.0",
-	"private": "true",
-	"dependencies": {
-		"grunt": "~0.4.2",
-		"grunt-webpack": "~1.0.2",
-		"matchdep": "~0.3.0",
-		"grunt-gh-pages": "~0.9.0",
-		"grunt-contrib-clean": "~0.5.0",
-		"grunt-contrib-copy": "~0.5.0",
-		"webpack": "1.x",
-		"webpack-dev-server": "1.x",
-		"css-loader": "0.5.x",
-		"style-loader": "0.5.x",
-		"jade-loader": "0.5.x",
-		"json-loader": "0.5.x",
-		"bundle-loader": "0.5.x",
-		"imports-loader": "0.6.x",
-		"exports-loader": "0.5.x",
-		"url-loader": "0.5.x"
-	}
+  "name": "webpack-analyse",
+  "version": "0.0.0",
+  "private": "true",
+  "dependencies": {
+    "bundle-loader": "0.5.x",
+    "css-loader": "0.5.x",
+    "exports-loader": "0.5.x",
+    "express": "^4.15.2",
+    "grunt": "~0.4.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-gh-pages": "~0.9.0",
+    "grunt-webpack": "~1.0.2",
+    "imports-loader": "0.6.x",
+    "jade-loader": "0.5.x",
+    "json-loader": "0.5.x",
+    "matchdep": "~0.3.0",
+    "style-loader": "0.5.x",
+    "url-loader": "0.5.x",
+    "webpack": "1.x",
+    "webpack-dev-server": "1.x",
+    "file-loader": "^0.10.1"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  }
 }

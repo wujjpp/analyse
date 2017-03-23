@@ -98,12 +98,6 @@ function load(stats) {
 	exports.mapModules = mapModules;
 	exports.mapModulesUid = mapModulesUid;
 	exports.mapModulesIdent = mapModulesIdent;
-
-	var ga = require("./googleAnalytics");
-	ga('set', 'dimension1', categorize(stats.modules.length) + "");
-	ga('set', 'dimension2', categorize(stats.chunks.length)  + "");
-	ga('set', 'dimension3', categorize(stats.assets.length)  + "");
-	ga('set', 'dimension4', categorize(stats.time)           + "");
 }
 
 exports.load = function (stats) {
