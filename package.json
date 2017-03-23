@@ -23,7 +23,6 @@
     "file-loader": "^0.10.1"
   },
   "devDependencies": {
-    "bootstrap": "^3.3.7",
-    "jquery": "^3.2.1"
+    "bootstrap": "^3.3.7"
   }
 }

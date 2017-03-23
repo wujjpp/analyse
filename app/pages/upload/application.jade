@@ -15,7 +15,11 @@ nav.navbar.navbar-default
 	
 .modal.fade: .modal-dialog: .modal-content
 	.modal-header
-		h4.modal-title Upload webpack stats
+		h4.modal-title Upload webpack stats files, they are stored in 
+			span(style="color:red") "build"
+			| &nbsp; folder.
+			p
+				small	File Name: webpack-client-stats.json&nbsp;&nbsp;or&nbsp;&nbsp;webpack-server-stats.json 
 	.modal-body
 		.form-group
 			label(for="file") JSON file
